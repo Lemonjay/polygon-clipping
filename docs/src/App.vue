@@ -36,6 +36,7 @@
 <script>
 
 import pc from '../..'
+console.log(pc)
 
 import {
   union as martinezUnion,
@@ -140,6 +141,7 @@ export default {
     runOperation () {
       var t0 = performance.now()
       var outData = operation(inData.features[0].geometry.coordinates, inData.features[1].geometry.coordinates)
+      console.log(inData,outData)
       this.performance = (performance.now() - t0).toFixed(2)
 
       outLayer.addData({

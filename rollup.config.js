@@ -7,7 +7,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'polygonClipping',
+      name: 'PolygonClipping',
       file: pkg.browser,
       format: 'umd',
     },
@@ -19,7 +19,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'polygonClipping',
+      name: 'PolygonClipping',
       file: pkg.browser.replace(/.js$/, '.min.js'),
       format: 'umd',
       sourcemap: true,

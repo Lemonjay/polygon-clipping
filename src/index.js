@@ -1,3 +1,4 @@
+import createCircle from './circle'
 import operation from './operation'
 
 const union = (geom, ...moreGeoms) =>
@@ -17,4 +18,5 @@ export default {
   intersection: intersection,
   xor: xor,
   difference: difference,
+  createCircle: createCircle
 }
